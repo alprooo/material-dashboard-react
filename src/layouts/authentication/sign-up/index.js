@@ -35,7 +35,7 @@ import bgImage from "assets/images/bg-sign-up-cover.jpeg";
 function Cover() {
   return (
     <CoverLayout image={bgImage}>
-      <Card>
+      <Card sx={{ mt: -5 }}>
         <MDBox
           variant="gradient"
           bgColor="info"

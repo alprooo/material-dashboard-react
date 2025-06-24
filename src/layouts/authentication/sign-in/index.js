@@ -48,7 +48,7 @@ function Basic() {
 
   return (
     <BasicLayout image={bgImage}>
-      <Card>
+      <Card sx={{ mt: 8 }}>
         <MDBox
           variant="gradient"
           bgColor="info"
